@@ -26,8 +26,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  // 샘플 데이터 (나중에 Django API 결과값으로 대체할 부분)
-  final List<String> stockList = ['삼성전자', 'SK하이닉스', 'NAVER', '카카오'];
   // 데이터를 담을 변수 (처음엔 비어있음)
   List<dynamic> stockData = [];
   bool isLoading = true; // 로딩 상태 표시용
