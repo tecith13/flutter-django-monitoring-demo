@@ -182,7 +182,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   padding: EdgeInsets.only(top: 4),
                   child: Text('Django 백엔드 실시간 연동 데이터'),
                 ),
-                // 🌟 우측에 텍스트 대신 '정규화 완료' 알약 모양 칩 배치
+                // 우측에 텍스트 대신 '정규화 완료' 알약 모양 칩 배치
                 trailing: Chip(
                   label: Text(
                     item.status,
@@ -237,7 +237,7 @@ class DetailScreen extends StatelessWidget {
           children: [
             Text('분석 신뢰도 점수: ${stockInfo.score.toInt()}점'),
             const SizedBox(height: 8),
-            // 💡 간이 막대 그래프 구현
+            // 간이 막대 그래프 구현
             Container(
               height: 24,
               width: double.infinity, // 전체 너비
